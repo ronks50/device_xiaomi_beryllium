@@ -1,0 +1,9 @@
+#type adsprpcd_file, file_type;
+#type bt_firmware_file, file_type;
+#type firmware_file, file_type;
+#type persist_file, file_type;
+type sysfs_touchpanel, sysfs_type, fs_type;
+type sysfs_white_led, sysfs_type, fs_type;
+type sysfs_block, fs_type, sysfs_type;
+type sysfs_graphics, fs_type, sysfs_type;
+type vendor_tombstone_data_file, file_type, data_file_type;
